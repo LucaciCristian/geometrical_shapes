@@ -7,9 +7,9 @@ public class Triangle {
     private double sideC;
 
     public Triangle(double a, double b, double c) {
-        this.sideA = a;
-        this.sideB = b;
-        this.sideC = c;
+        sideA = a;
+        sideB = b;
+        sideC = c;
     }
 
     public double calculateArea() {
