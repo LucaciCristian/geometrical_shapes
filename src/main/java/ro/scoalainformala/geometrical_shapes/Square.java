@@ -8,12 +8,10 @@ public class Square {
     }
 
     public double calculateArea() {
-        double area = l * l;
-        return area;
+        return l * l;
     }
 
     public double calculatePerimeter() {
-        double perimeter = l * 4;
-        return perimeter;
+        return l * 4;
     }
 }

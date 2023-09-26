@@ -13,13 +13,12 @@ public class Triangle {
     }
 
     public double calculateArea() {
-        double p = (sideA + sideB + sideC) / 2.0;
+        double p = calculatePerimeter();
         return Math.sqrt(p*(p-sideA)*(p-sideB)*(p-sideC));
     }
 
     public double calculatePerimeter() {
-        double perimeter = sideA + sideB + sideC;
-        return perimeter;
+        return sideA + sideB + sideC;
     }
 
 }
